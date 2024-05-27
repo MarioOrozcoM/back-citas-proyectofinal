@@ -9,6 +9,7 @@ import java.util.List;
 @Repository
 public interface CitaGeneralRepository extends JpaRepository<CitaGeneral, String> {
     CitaGeneral findByNumeroIdentificacion(String numeroIdentificacion);
+    CitaGeneral findByConsultorio_Id(String consultorio_Id);
 
 }
 

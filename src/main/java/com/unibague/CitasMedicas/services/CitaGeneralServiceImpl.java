@@ -97,4 +97,9 @@ public class CitaGeneralServiceImpl implements CitaGeneralService {
         // Implementa la lógica para obtener citas por consultorio utilizando métodos del repositorio si es necesario
         return null;
     }
+
+    @Override
+    public List<CitaGeneral> buscarPorConsultorio(String consultorioId) {
+        return List.of();
+    }
 }

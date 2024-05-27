@@ -15,4 +15,6 @@ public interface CitaGeneralService {
     CitaGeneral obtenerCitaGeneralPorId(String id);
     void asignarConsultorioACita(String idCita, String idConsultorio);
     List<CitaGeneral> obtenerCitasPorConsultorio(String idConsultorio);
+    List<CitaGeneral> buscarPorConsultorio(String consultorioId);
+
 }
